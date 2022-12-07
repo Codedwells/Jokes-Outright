@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Nerko+One&family=Poppins:wght@400;500;600;700;800&display=swap");
+* {
+  font-family: "Montserrat";
+}
+
+.nav{
+    background-color: rgb(13, 44, 71);
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+.nav ul{
+    list-style: none;
+    color: white;
+    font-family: "Poppins";
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav ul li{
+    padding: 0.4rem;
+    cursor: pointer;
+}
+
+.nav ul li:hover{
+    background-color:rgb(83, 87, 88);
+}
+
+.nav ul li:active{
+    background-color:rgb(175, 183, 185);
+}
+
+.joke-container{
+    background-color: rgb(38, 71, 100);
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    margin: 2rem;
+}
+
+.heading{
+    color: white;
+    text-align: center;
+    margin-bottom:2rem ;
+}
+
+.title{
+    color: white;
+    font-weight: 600;
+    font-size: 1.4em;
+}
+
+.joke{
+    margin-top: 2rem;
+    color: white;
+    font-family: "Nerko One";
+    text-align: center;
+    font-size: 2.2em;
+    margin-bottom: 2rem;
+}
+
+button{
+    padding: 0.2rem;
+    border: 3px solid rgb(48, 176, 185);
+    color: rgb(32, 124, 131);
+    border-radius: 10px;
+    font-weight: 600;
+    max-width: 15rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+}
+
+button:hover{
+    background-color: rgb(48, 176, 185);
+    color: white;
+}
+
+button:active{
+    background-color: white;
+    color: rgb(48, 176, 185);
+}
+footer{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat";
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 3rem;
+    background-color:rgb(13, 44, 71);
+    color: white;
+    font-weight: 600;
+}
