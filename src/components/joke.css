@@ -116,4 +116,9 @@ footer {
   footer{
     position: static;
   }
+
+  .joke{
+    max-width: 18rem;
+    word-wrap: break-word;
+  }
 }
