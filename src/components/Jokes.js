@@ -86,7 +86,7 @@ const Jokes = () => {
       <div className="joke-container">
         <p className="title">{genre} Joke</p>
         <p className="joke">
-          {setUp},{delivery}
+          {setUp}{delivery}
         </p>
         <button onClick={getNewJoke}>Get new joke</button>
       </div>
