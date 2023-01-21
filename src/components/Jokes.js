@@ -90,7 +90,7 @@ const Jokes = () => {
         </p>
         <button onClick={getNewJoke}>Get new joke</button>
       </div>
-      <footer>JokesOutright.netlify.app &#169; 2022 </footer>
+      <footer> Jokes-Outright &#169; 2022 - 2023 </footer>
     </>
   );
 };
